@@ -13,6 +13,9 @@
             <feature name="Device">
                 <param name="ios-package" value="CDVDevice"/>
             </feature>
+            <feature name="Echo">
+                <param name="ios-package" value="Echo" />
+            </feature>
         </config-file>
         <header-file src="src/ios/CDVDevice.h" />
         <source-file src="src/ios/CDVDevice.m" />
