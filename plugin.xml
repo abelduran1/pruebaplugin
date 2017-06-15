@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-bgDestroy" version="0.2.3">
+    <name>Device</name>
+    <description>Cordova Plugin that fires event when the app destroys from background</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,destroy,background,app,ios,android</keywords>
+    <js-module src="www/destroy.js" name="destroy">
+        <clobbers target="destroy" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Destroy">
+                <param name="ios-package" value="CDVDestroy"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVDestroy.h" />
+        <source-file src="src/ios/CDVDestroy.m" />
+    </platform>
+</plugin>
