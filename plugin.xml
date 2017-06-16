@@ -10,8 +10,8 @@
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Abel">
-                <param name="ios-package" value="CDVAbel"/>
+            <feature name="<service_name>">
+                 <param name="android-package" value="org.apache.cordova.plugin.Echo" />
             </feature>
             <feature name="Echo">
                 <param name="ios-package" value="Echo" />
