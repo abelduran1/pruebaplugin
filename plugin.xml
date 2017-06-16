@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-device" version="0.2.3">
+        id="abel1997pluginpruebadevice" version="0.2.3">
     <name>Device</name>
-    <description>Cordova Device Plugin</description>
+    <description>Cordova Abel Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,device</keywords>
+    <keywords>cordova,abel</keywords>
     <js-module src="www/device.js" name="device">
         <clobbers target="device" />
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Device">
-                <param name="ios-package" value="CDVDevice"/>
+            <feature name="Abel">
+                <param name="ios-package" value="CDVAbel"/>
             </feature>
             <feature name="Echo">
                 <param name="ios-package" value="Echo" />
