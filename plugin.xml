@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="abel1997pluginpruebadevice" version="0.2.3">
+        id="abelPluginPrueba" version="0.2.3">
     <name>Echo</name>
     <description>Cordova Abel Plugin</description>
     <license>Apache 2.0</license>
