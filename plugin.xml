@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="abel1997pluginpruebadevice" version="0.2.3">
-    <name>Device</name>
+    <name>Echo</name>
     <description>Cordova Abel Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,abel</keywords>
-    <js-module src="www/abel.js" name="device">
-        <clobbers target="device" />
+        
+    <js-module src="www/abel.js" name="abel">
+        <clobbers target="Echo" />
     </js-module>
+        
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
                 
-            <feature name="<service_name>">
+            <feature name="Echo">
                  <param name="android-package" value="org.apache.cordova.plugin.Echo" />
             </feature>
                 
