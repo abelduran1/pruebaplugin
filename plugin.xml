@@ -17,7 +17,7 @@
                 <param name="ios-package" value="Echo" />
             </feature>
         </config-file>
-        <header-file src="src/ios/CDVDevice.h" />
-        <source-file src="src/ios/CDVDevice.m" />
+        <header-file src="src/ios/Echo.h" />
+        <source-file src="src/ios/Echo.m" />
     </platform>
 </plugin>
